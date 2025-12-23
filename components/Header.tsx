@@ -42,7 +42,7 @@ export default function Header() {
                                 key={link.href}
                                 href={link.href}
                                 className={`px-2 sm:px-3 md:px-5 py-1.5 sm:py-2 md:py-2.5 text-xs sm:text-sm md:text-base font-medium rounded-full transition ${isActive(link.href)
-                                    ? 'text-[var(--google-blue)] bg-[rgba(66,133,244,0.08)]'
+                                    ? 'text-[var(--primary-purple)] bg-[rgba(106,42,154,0.08)]'
                                     : 'text-[var(--gray-700)] hover:bg-[var(--gray-100)]'
                                     }`}
                             >
