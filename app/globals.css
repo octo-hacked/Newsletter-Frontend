@@ -122,19 +122,18 @@ p {
   width: 100%;
   padding: 12px 20px;
   font-size: 16px;
-  color: var(--dark-text);
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid var(--primary-purple);
+  color: var(--gray-900);
+  background-color: var(--gray-50);
+  border: 1px solid var(--gray-300);
   border-radius: 9999px;
   transition: border-color 0.2s, background-color 0.2s;
-  font-family: 'Lora', serif;
 }
 
 .input:focus {
   outline: none;
   background-color: white;
-  border-color: var(--accent-purple);
-  box-shadow: 0 0 0 2px rgba(106, 42, 154, 0.2);
+  border-color: var(--google-blue);
+  box-shadow: 0 0 0 2px rgba(66, 133, 244, 0.2);
 }
 
 .textarea {
@@ -142,19 +141,18 @@ p {
   padding: 16px 20px;
   font-size: 16px;
   min-height: 160px;
-  color: var(--dark-text);
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid var(--primary-purple);
+  color: var(--gray-900);
+  background-color: var(--gray-50);
+  border: 1px solid var(--gray-300);
   border-radius: 24px;
   resize: vertical;
-  font-family: 'Lora', serif;
 }
 
 .textarea:focus {
   outline: none;
   background-color: white;
-  border-color: var(--accent-purple);
-  box-shadow: 0 0 0 2px rgba(106, 42, 154, 0.2);
+  border-color: var(--google-blue);
+  box-shadow: 0 0 0 2px rgba(66, 133, 244, 0.2);
 }
 
 /* -----------------------------
@@ -162,14 +160,13 @@ p {
 ------------------------------ */
 .card {
   background: white;
-  border: 1px solid #DDD;
-  border-radius: 0;
-  transition: box-shadow 0.3s, transform 0.3s;
+  border: 1px solid var(--gray-200);
+  border-radius: 16px;
+  transition: box-shadow 0.2s;
 }
 
 .card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transform: translateY(-2px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 /* -----------------------------
