@@ -76,17 +76,17 @@ export default function Footer() {
                         <h4 className="font-medium text-[var(--gray-900)] mb-4 mt-8">Quick Links</h4>
                         <ul className="space-y-2">
                             <li>
-                                <Link href="/" className="text-sm text-[var(--gray-500)] hover:text-[var(--primary-purple)] transition">
+                                <Link href="/" className="text-sm text-[var(--gray-500)] hover:text-[var(--google-blue)] transition">
                                     Home
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/newsletter" className="text-sm text-[var(--gray-500)] hover:text-[var(--primary-purple)] transition">
+                                <Link href="/newsletter" className="text-sm text-[var(--gray-500)] hover:text-[var(--google-blue)] transition">
                                     Newsletters
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/login" className="text-sm text-[var(--gray-500)] hover:text-[var(--primary-purple)] transition">
+                                <Link href="/login" className="text-sm text-[var(--gray-500)] hover:text-[var(--google-blue)] transition">
                                     Admin Login
                                 </Link>
                             </li>
