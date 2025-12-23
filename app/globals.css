@@ -253,10 +253,108 @@ p {
 
 /* Newsletter Specific Styles */
 .newsletter-page {
+  background-color: var(--cream-bg) !important;
   background-image:
     linear-gradient(0deg, transparent 24%, rgba(180, 150, 100, 0.08) 25%, rgba(180, 150, 100, 0.08) 26%, transparent 27%, transparent 74%, rgba(180, 150, 100, 0.08) 75%, rgba(180, 150, 100, 0.08) 76%, transparent 77%, transparent),
-    linear-gradient(90deg, transparent 24%, rgba(180, 150, 100, 0.08) 25%, rgba(180, 150, 100, 0.08) 26%, transparent 27%, transparent 74%, rgba(180, 150, 100, 0.08) 75%, rgba(180, 150, 100, 0.08) 76%, transparent 77%, transparent);
-  background-size: 40px 40px;
+    linear-gradient(90deg, transparent 24%, rgba(180, 150, 100, 0.08) 25%, rgba(180, 150, 100, 0.08) 26%, transparent 27%, transparent 74%, rgba(180, 150, 100, 0.08) 75%, rgba(180, 150, 100, 0.08) 76%, transparent 77%, transparent) !important;
+  background-size: 40px 40px !important;
+  color: var(--dark-text);
+  font-family: 'Lora', 'Georgia', serif;
+  line-height: 1.8;
+}
+
+/* Newsletter page typography */
+.newsletter-page h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  letter-spacing: -1px;
+  color: var(--primary-purple);
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.newsletter-page h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-purple);
+}
+
+.newsletter-page h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--dark-text);
+}
+
+.newsletter-page h4 {
+  font-family: 'Lora', serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--primary-purple);
+}
+
+.newsletter-page p {
+  color: var(--dark-text);
+  line-height: 1.8;
+}
+
+/* Newsletter page buttons */
+.newsletter-page .btn-primary {
+  background-color: var(--primary-purple);
+}
+
+.newsletter-page .btn-primary:hover {
+  background-color: var(--accent-purple);
+}
+
+.newsletter-page .btn-secondary {
+  color: var(--primary-purple);
+  border-color: var(--gray-300);
+}
+
+.newsletter-page .btn-secondary:hover {
+  border-color: var(--primary-purple);
+}
+
+/* Newsletter page form inputs */
+.newsletter-page .input {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: var(--primary-purple);
+  color: var(--dark-text);
+  font-family: 'Lora', serif;
+}
+
+.newsletter-page .input:focus {
+  border-color: var(--accent-purple);
+  box-shadow: 0 0 0 2px rgba(106, 42, 154, 0.2);
+}
+
+.newsletter-page .textarea {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: var(--primary-purple);
+  color: var(--dark-text);
+  font-family: 'Lora', serif;
+}
+
+.newsletter-page .textarea:focus {
+  border-color: var(--accent-purple);
+  box-shadow: 0 0 0 2px rgba(106, 42, 154, 0.2);
+}
+
+/* Newsletter page cards */
+.newsletter-page .card {
+  background: white;
+  border: 1px solid #DDD;
+  border-radius: 0;
+}
+
+.newsletter-page .card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
 }
 
 .newsletter-divider {
