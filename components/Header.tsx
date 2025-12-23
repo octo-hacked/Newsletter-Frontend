@@ -54,8 +54,8 @@ export default function Header() {
                                 href="/login"
                                 className={`btn-primary text-xs sm:text-sm md:text-base py-1.5 sm:py-2 md:py-2.5 px-3 sm:px-4 md:px-6 ${
                                     pathname.startsWith('/newsletter')
-                                        ? 'bg-[var(--primary-purple)] hover:bg-[var(--accent-purple)]'
-                                        : 'bg-[var(--google-blue)] hover:bg-[#1a73e8]'
+                                        ? 'newsletter-page-join-btn'
+                                        : ''
                                 }`}
                             >
                                 Join
