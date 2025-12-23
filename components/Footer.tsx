@@ -137,10 +137,10 @@ export default function Footer() {
                         © {currentYear} GDGoC Galgotias University.
                     </p>
                     <div className="flex gap-6">
-                        <Link href="/" className="text-sm text-[var(--gray-500)] hover:text-[var(--google-blue)] transition">
+                        <Link href="/" className="text-sm text-[var(--gray-500)] hover:text-[var(--primary-purple)] transition">
                             Privacy Policy
                         </Link>
-                        <Link href="/" className="text-sm text-[var(--gray-500)] hover:text-[var(--google-blue)] transition">
+                        <Link href="/" className="text-sm text-[var(--gray-500)] hover:text-[var(--primary-purple)] transition">
                             Terms of Service
                         </Link>
                     </div>
