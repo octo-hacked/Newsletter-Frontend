@@ -304,11 +304,11 @@ p {
 
 /* Newsletter page buttons */
 .newsletter-page .btn-primary {
-  background-color: var(--primary-purple);
+  background-color: var(--primary-purple) !important;
 }
 
 .newsletter-page .btn-primary:hover {
-  background-color: var(--accent-purple);
+  background-color: var(--accent-purple) !important;
 }
 
 .newsletter-page .btn-secondary {
@@ -318,6 +318,17 @@ p {
 
 .newsletter-page .btn-secondary:hover {
   border-color: var(--primary-purple);
+}
+
+/* Newsletter header button styling */
+header + main.newsletter-page .btn-primary,
+main.newsletter-page ~ header .btn-primary {
+  background-color: var(--primary-purple) !important;
+}
+
+header + main.newsletter-page .btn-primary:hover,
+main.newsletter-page ~ header .btn-primary:hover {
+  background-color: var(--accent-purple) !important;
 }
 
 /* Newsletter page form inputs */
