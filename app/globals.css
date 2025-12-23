@@ -362,7 +362,7 @@ p {
   margin: 2rem 0;
 }
 
-.newsletter-section-title {
+.newsletter-page .newsletter-section-title {
   font-family: 'Playfair Display', serif;
   font-size: 1.75rem;
   font-weight: 700;
@@ -375,15 +375,15 @@ p {
   margin: 3rem 0 2rem;
 }
 
-.newsletter-section-title::before,
-.newsletter-section-title::after {
+.newsletter-page .newsletter-section-title::before,
+.newsletter-page .newsletter-section-title::after {
   content: '';
   flex: 1;
   height: 1px;
   background-color: var(--primary-purple);
 }
 
-.newsletter-badge {
+.newsletter-page .newsletter-badge {
   display: inline-block;
   font-family: 'Lora', serif;
   font-size: 0.75rem;
@@ -394,7 +394,7 @@ p {
   margin-bottom: 0.5rem;
 }
 
-.newsletter-subtitle {
+.newsletter-page .newsletter-subtitle {
   font-family: 'Lora', serif;
   font-size: 1rem;
   font-style: italic;
@@ -403,10 +403,14 @@ p {
   margin-bottom: 0.5rem;
 }
 
-.diamond-divider {
+.newsletter-page .diamond-divider {
   text-align: center;
   color: var(--primary-purple);
   font-size: 1.5rem;
   margin: 1.5rem 0;
   letter-spacing: 0.3rem;
+}
+
+.newsletter-page .newsletter-divider {
+  border-top-color: var(--primary-purple);
 }
