@@ -28,7 +28,7 @@ export default function Footer() {
                                 href="https://twitter.com"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-[var(--gray-500)] hover:text-[var(--primary-purple)] transition"
+                                className="text-[var(--gray-500)] hover:text-[var(--google-blue)] transition"
                                 aria-label="Twitter"
                             >
                                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
