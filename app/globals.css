@@ -321,13 +321,11 @@ p {
 }
 
 /* Newsletter header button styling */
-header + main.newsletter-page .btn-primary,
-main.newsletter-page ~ header .btn-primary {
+.newsletter-page-join-btn {
   background-color: var(--primary-purple) !important;
 }
 
-header + main.newsletter-page .btn-primary:hover,
-main.newsletter-page ~ header .btn-primary:hover {
+.newsletter-page-join-btn:hover {
   background-color: var(--accent-purple) !important;
 }
 
