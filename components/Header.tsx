@@ -52,7 +52,11 @@ export default function Header() {
                         <div className="ml-2 sm:ml-3 md:ml-4 pl-2 sm:pl-3 md:pl-4 border-l border-[var(--gray-200)]">
                             <Link
                                 href="/login"
-                                className="btn-primary text-xs sm:text-sm md:text-base py-1.5 sm:py-2 md:py-2.5 px-3 sm:px-4 md:px-6"
+                                className={`btn-primary text-xs sm:text-sm md:text-base py-1.5 sm:py-2 md:py-2.5 px-3 sm:px-4 md:px-6 ${
+                                    pathname.startsWith('/newsletter')
+                                        ? 'bg-[var(--primary-purple)] hover:bg-[var(--accent-purple)]'
+                                        : 'bg-[var(--google-blue)] hover:bg-[#1a73e8]'
+                                }`}
                             >
                                 Join
                             </Link>
