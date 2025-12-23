@@ -76,7 +76,7 @@ export default function NewsletterPage() {
               <Link
                 key={newsletter.slug}
                 href={`/newsletter/${newsletter.slug}`}
-                className="border border-black card group block overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300"
+                className="border border-black card group block overflow-hidden shadow-sm hover:shadow-lg border-2 transition-all duration-300"
               >
                 {/* Image Container */}
                 <div className="relative h-56 w-full overflow-hidden bg-gray-100">
