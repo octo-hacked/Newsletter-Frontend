@@ -86,7 +86,7 @@ p {
 }
 
 /* -----------------------------
-   Google-Style Buttons
+   Buttons
 ------------------------------ */
 .btn-primary {
   display: inline-flex;
@@ -96,7 +96,7 @@ p {
   font-size: 14px;
   font-weight: 500;
   color: white;
-  background-color: var(--google-blue);
+  background-color: var(--primary-purple);
   border: none;
   border-radius: 9999px;
   cursor: pointer;
@@ -104,7 +104,7 @@ p {
 }
 
 .btn-primary:hover {
-  background-color: #1a73e8;
+  background-color: var(--accent-purple);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
@@ -115,7 +115,7 @@ p {
   padding: 10px 24px;
   font-size: 14px;
   font-weight: 500;
-  color: var(--google-blue);
+  color: var(--primary-purple);
   background-color: white;
   border: 1px solid var(--gray-300);
   border-radius: 9999px;
@@ -125,7 +125,7 @@ p {
 
 .btn-secondary:hover {
   background-color: var(--gray-50);
-  border-color: var(--google-blue);
+  border-color: var(--primary-purple);
 }
 
 /* -----------------------------
