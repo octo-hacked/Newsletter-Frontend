@@ -43,7 +43,7 @@ const newsletters = [
 
 export default function NewsletterPage() {
   return (
-    <main className="min-h-screen py-16">
+    <main className="newsletter-page min-h-screen py-16">
       <div className="container max-w-6xl mx-auto px-6">
         {/* Header Section */}
         <div className="text-center mb-16">
