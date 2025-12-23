@@ -102,7 +102,7 @@ export default function Footer() {
                                     href="https://developers.google.com"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-sm text-[var(--gray-500)] hover:text-[var(--google-blue)] transition"
+                                    className="text-sm text-[var(--gray-500)] hover:text-[var(--primary-purple)] transition"
                                 >
                                     Google Developers
                                 </a>
@@ -112,7 +112,7 @@ export default function Footer() {
                                     href="https://gdg.community.dev"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-sm text-[var(--gray-500)] hover:text-[var(--google-blue)] transition"
+                                    className="text-sm text-[var(--gray-500)] hover:text-[var(--primary-purple)] transition"
                                 >
                                     GDG Community
                                 </a>
@@ -122,7 +122,7 @@ export default function Footer() {
                                     href="https://galgotiasuniversity.edu.in"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-sm text-[var(--gray-500)] hover:text-[var(--google-blue)] transition"
+                                    className="text-sm text-[var(--gray-500)] hover:text-[var(--primary-purple)] transition"
                                 >
                                     Galgotias University
                                 </a>
