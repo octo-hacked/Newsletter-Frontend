@@ -277,10 +277,10 @@ body:has(.newsletter-page) {
 
 /* Newsletter page typography */
 .newsletter-page h1 {
-  font-family: 'UnifrakturCook', cursive;
-  font-size: 4.5rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
+  font-family: 'UnifrakturCook', cursive !important;
+  font-size: 4.5rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
   color: var(--primary-purple);
   text-align: center;
   margin-bottom: 0.5rem;
